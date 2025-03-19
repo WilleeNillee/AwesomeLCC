@@ -1,0 +1,79 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+   
+<meta charset="utf-8">
+<title>links page</title>
+<a class="back" href="index.html"><img src="backbutton.png"></a>
+<p class="top-space"></p>  
+
+<style>
+    .back img {
+transition: transform .5s;
+    }
+    .back img:hover {
+        transform: translateX(10px);
+    }
+#one{
+    width:200px;
+    height:200px;
+    background-image: url("jimmy.png");
+    background-size:contain;
+    transition:background 1s,transform 0.5s;
+   
+}
+#one:hover{
+    
+    transform: translate(20px, 20px);
+    transform:rotate(360deg)scale(1);
+}
+
+#two{
+    background-image: url("sponge.png");
+    background-size:contain;
+    margin-top:30px;
+    width:200px;
+    height:200px;
+    background-color:rgb(246, 255, 0);
+    transition:background 1s,transform 0.5s;
+   transition:border-radius .5s;
+}
+#two:hover{
+border-radius:30%;
+}
+#three{
+    margin-top:30px;
+    width:200px;
+    height:200px;
+    background-image: url("tiger.png");
+    background-size: cover;
+    transition:box-shadow .5s, transform .5s;
+  
+}
+#three:hover{
+box-shadow: 0px 10px 10px rgb(92, 92, 92);
+transform:translateY(-10px);
+}
+
+#four{
+    margin-top:30px;
+    width:200px;
+    height:200px;
+    background-image: url("linkdancing.png");
+    background-size: cover;
+    transition: background 1s, transform 1s;
+}
+#four:hover{
+transform:rotateX(200deg);
+}
+ </style>
+<body>
+ <div id="one"></div> 
+ <div id="two"></div> 
+ <div id="three"></div> 
+ <div id="four"></div>   
+</body>
+
+</html>
